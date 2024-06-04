@@ -1,3 +1,4 @@
-# Getting Started with Create React App
+# 启动步骤
+    npm i
+    npm start
 
-react18 template

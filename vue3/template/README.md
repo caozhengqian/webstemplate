@@ -1,3 +1,3 @@
-# vue-template
-
-webs-cli create vue-template
+# 启动步骤
+    npm i
+    npm run dev

@@ -2,7 +2,7 @@
 function App() {
   return (
     <div className="App">
-      这是react的模板
+      ERP项目模板(react)
     </div>
   );
 }

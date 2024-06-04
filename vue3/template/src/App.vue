@@ -4,7 +4,7 @@
 <template>
   <header>
     <div class="wrapper">
-      hello webs-cli
+      CRM项目模板
     </div>
   </header>
 </template>
