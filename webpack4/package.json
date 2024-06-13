@@ -1,0 +1,49 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config config/webpack.dev.js",
+    "build": "webpack --config config/webpack.prod.js",
+    "dll": "webpack --config config/webpack.dll.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.7",
+    "autoprefixer": "^9.7.3",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.1",
+    "file-loader": "^5.0.2",
+    "happypack": "^5.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.6",
+    "style-loader": "^1.0.1",
+    "terser-webpack-plugin": "^2.2.2",
+    "ts-loader": "^8.0.3",
+    "typescript": "^5.4.5",
+    "url-loader": "^3.0.0",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.8.3",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-merge": "^4.2.2",
+    "webpack-parallel-uglify-plugin": "^1.1.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0"
+  }
+}
